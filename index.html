@@ -3,17 +3,17 @@
 <head>
 	<title>Guest Scan</title>
 
-	<meta name="viewport" content="width=device-width, user-scalable=false">
-
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body ng-app="guestScanApp">
 
 
-
+	<div ng-view>
 
 
 
@@ -22,7 +22,7 @@
 
     <!-- add angular script from fire base here -->
 
-    <script src="https://cdn.firebase.com/libs/angularfire/2.0.0/angularfire.min.js"></script><!--Angular fire!-->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script><!--Angular fire!-->
 
     <script src="script.js"></script>
 </body>
